@@ -56,6 +56,10 @@
       - [Input](#input-7)
       - [Output](#output-7)
   - [4.7 الحالات المميزة (Special Cases)](#47-الحالات-المميزة-special-cases)
+    - [4.7.1 مخرجات النماذج اللغوية (LLMs Outputs)](#471-مخرجات-النماذج-اللغوية-llms-outputs)
+    - [4.7.2 مخرجات نصوص من أنظمة التعرف على الكلام (STT - Speech-to-Text Output)](#472-مخرجات-نصوص-من-أنظمة-التعرف-على-الكلام-stt---speech-to-text-output)
+    - [4.7.3 مخرجات نصوص مترجمة آليًا (Machine-Translated Texts Output)](#473-مخرجات-نصوص-مترجمة-آليًا-machine-translated-texts-output)
+    - [4.7.4 مخرجات نصوص صادرة من أنظمة مختلفة (Mixed System Outputs)](#474-مخرجات-نصوص-صادرة-من-أنظمة-مختلفة-mixed-system-outputs)
     - [4.7.5 منهجية موحّدة للتعامل مع المصادر المختلفة (A Unified Methodology)](#475-منهجية-موحّدة-للتعامل-مع-المصادر-المختلفة-a-unified-methodology)
     - [4.7.6 ضمان الجودة (Quality Assurance)](#476-ضمان-الجودة-quality-assurance)
   - [مصطلحات مهمة (Key Terms)](#مصطلحات-مهمة-key-terms)
@@ -476,7 +480,7 @@ print(text)
 
 ---
 
-> ### 4.7.1 مخرجات النماذج اللغوية (LLMs Outputs)
+### 4.7.1 مخرجات النماذج اللغوية (LLMs Outputs)
 > 
 > 1. **التكرار المفرط (Excessive Repetition)**
 >    - **التحدي**: قد يولِّد النموذج عبارات مكررة تضر بجودة النص.
@@ -496,7 +500,7 @@ print(text)
 >
 ---
 >
-> ### 4.7.2 مخرجات نصوص من أنظمة التعرف على الكلام (STT - Speech-to-Text Output)
+### 4.7.2 مخرجات نصوص من أنظمة التعرف على الكلام (STT - Speech-to-Text Output)
 > 2. **الأخطاء الإملائية أو النحوية (Spelling/Grammar Errors)**
 >    - **التحدي**: عدم تعرف النظام على بعض الكلمات أو اللهجات.
 >    - **الحل**: التصحيح الإملائي والنحوي باستخدام أدوات مثل Farasa.
@@ -511,7 +515,7 @@ print(text)
 
 ---
 
-> ### 4.7.3 مخرجات نصوص مترجمة آليًا (Machine-Translated Texts Output)
+### 4.7.3 مخرجات نصوص مترجمة آليًا (Machine-Translated Texts Output)
 > 
 > 1. **ترجمات حرفية (Literal Translations)**
 >    - **التحدي**: تراكيب غير ملائمة لقواعد العربية.
@@ -527,7 +531,7 @@ print(text)
 
 ---
 
-> ### 4.7.4 مخرجات نصوص صادرة من أنظمة مختلفة (Mixed System Outputs)
+### 4.7.4 مخرجات نصوص صادرة من أنظمة مختلفة (Mixed System Outputs)
 > 
 > 1. **نصوص مدمجة (Mixed Text)**
 >    - **التحدي**: اندماج نصوص عدة من STT أو LLMs أو ترجمة آلية.
